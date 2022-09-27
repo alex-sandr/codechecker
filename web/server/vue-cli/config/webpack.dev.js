@@ -8,6 +8,7 @@ const CC_SERVICE_ENDPOINTS = [
   'Configuration',
   'CodeCheckerService',
   'Products',
+  'Jira',
   'ServerInfo'
 ];
 

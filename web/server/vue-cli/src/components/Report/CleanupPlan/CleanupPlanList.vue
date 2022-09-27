@@ -7,6 +7,7 @@
       >
         <template v-slot:default="{ active }">
           <v-list-item-action class="ma-1 mr-5">
+            {{ cleanupPlan.id.toNumber() }}
             <v-icon v-if="active">
               mdi-check
             </v-icon>
